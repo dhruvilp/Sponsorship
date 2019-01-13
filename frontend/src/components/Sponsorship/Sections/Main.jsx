@@ -19,7 +19,6 @@ class Main extends Component {
         let navContainer = (
             <div>
                 {navSponsorship}
-                {/* <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", width: "100px" }} /> */}
             </div>
         );
 
