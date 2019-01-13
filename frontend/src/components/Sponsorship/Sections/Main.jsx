@@ -19,13 +19,13 @@ class Main extends Component {
         let navContainer = (
             <div>
                 {navSponsorship}
-                <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", width: "100px" }} />
+                {/* <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", width: "100px" }} /> */}
             </div>
         );
 
         if (!this.props.isMobile) {
             return (
-                <Container fluid id="landing-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
+                <Container fluid id="sponsorship-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
                     <Row style={{ minWidth: "100%", minHeight: "100vh" }} className="d-flex align-items-center">
                         <Col xs={2}></Col>
                         <Col xs={8} style={{ display: "block" }}>
@@ -51,7 +51,7 @@ class Main extends Component {
             )
         } else {
             return (
-                <Container fluid id="landing-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
+                <Container fluid id="sponsorship-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
                     <Row style={{ minWidth: "100%", minHeight: "100vh" }} className="d-flex align-items-center">
                         <Col style={{ display: "block" }}>
                             <Row className="align-items-center" style={{paddingLeft: 80}}>

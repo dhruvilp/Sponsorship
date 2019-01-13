@@ -166,7 +166,7 @@ h4{
     font-size: 1.25rem;
     font-weight: bold;
 }
-#landing-section {
+#landing-section, #sponsorship-section {
     color: white;
 }
 

@@ -1,19 +1,15 @@
 /**
- * @author Shivan Modha
+ * @author Dhruvil Patel
  * @description Application default settings
  * @version 0.0.1
- * Created 12/09/18
+ * Created 01/14/18
  */
 import React from "react";
-import About from "./components/Landing/Sections/About";
 import AboutSponsorship from "./components/Sponsorship/Sections/AboutSponsorship";
 import SponsorshipPackages from "./components/Sponsorship/Sections/SponsorshipPackages";
 import Testimonials from "./components/Sponsorship/Sections/Testimonials";
 import Recap from "./components/Sponsorship/Sections/Recap";
-import Schedule from "./components/Landing/Sections/Schedule";
-import Sponsors from "./components/Landing/Sections/Sponsors";
-import FAQs from "./components/Landing/Sections/Faqs";
-import Footer from "./components/Landing/Sections/Footer";
+import Footer from "./components/Sponsorship/Sections/Footer";
 
 const defaults =  {
     "title": "HackRU Spring 2019",
@@ -26,46 +22,6 @@ const defaults =  {
     "rest": {
         "dev": "https://7c5l6v7ip3.execute-api.us-west-2.amazonaws.com/lcs-test",
         "prod": "https://m7cwj1fy7c.execute-api.us-west-2.amazonaws.com/mlhtest",
-        "resumes": "https://hackru-resumes.s3.amazonaws.com",
-    }
-}
-
-const navlinks = {
-    "About Us": {
-        "url": "#about",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <About {...props} />
-    },
-    "Schedule": {
-        "url": "#schedule",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <Schedule {...props} />
-    },
-    "Sponsors": {
-        "url": "#sponsors",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <Sponsors {...props} />
-    },
-    "FAQs": {
-        "url": "#faqs",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <FAQs {...props} />
-    },
-    "Footer": {
-        "url": "#footer",
-        "enabled": true,
-        "hideLink": true,
-        "fullHeight": false,
-        "skew": false,
-        "component": (props) => <Footer {...props} />
     }
 }
 
@@ -146,7 +102,6 @@ varList.forEach((element) => {
 
 export {
     defaults,
-    navlinks,
     sponsorshipLinks,
     theme
 };

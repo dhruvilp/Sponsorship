@@ -9,7 +9,7 @@ class E404 extends Component {
                 <Col />
                 <Col xs={4} style={{ display: "block", zIndex: 3, color: "white", background: "rgba(255, 0, 0, 0.15)" }}>
                     <div style={{ padding: 30 }}>
-                        <h1 className="display-1 theme-font">¯\_(ツ)_/¯, this page doesn't exist</h1>
+                        <h2 className="display-1 theme-font">¯\_(ツ)_/¯, this page doesn't exist</h2>
                         <Link to="/" style={{ color: "white" }}><p className="lead">Click here to go back to land!</p></Link>
                     </div>
                 </Col>
