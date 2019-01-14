@@ -1,9 +1,3 @@
-/**
- * @author Dhruvil Patel
- * @description Application default settings
- * @version 0.0.1
- * Created 01/14/18
- */
 import React from "react";
 import AboutSponsorship from "./components/Sponsorship/Sections/AboutSponsorship";
 import SponsorshipPackages from "./components/Sponsorship/Sections/SponsorshipPackages";
