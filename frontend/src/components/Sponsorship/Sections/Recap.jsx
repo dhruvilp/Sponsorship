@@ -22,6 +22,7 @@ class Recap extends Component {
                     <div class="container">
                         <div class="col-sm-12">
                             <img class="img-fluid" src="./assets/recap/recap1.png" alt=""></img>
+                            <img class="img-fluid" style={{paddingTop:20}} src="./assets/recap/recap1a.png" alt=""></img>
                             <img class="img-fluid" style={{paddingTop:20}} src="./assets/recap/recap2.png" alt=""></img>
                             <img class="img-fluid" style={{paddingTop:20}} src="./assets/recap/recap3.png" alt=""></img>
                             <img class="img-fluid" style={{paddingTop:20}} src="./assets/recap/recap4.png" alt=""></img>

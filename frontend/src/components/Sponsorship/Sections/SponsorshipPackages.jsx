@@ -37,7 +37,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">API/Demo</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">API / Demo</p></div>
                         <div class="col-2 col-lg-2 col-xs-1 perk-select-col"><p class="perk-select bronze">2 MIN</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver">3 MIN</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold">5 MIN</p></div>
@@ -46,7 +46,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Affiliated mentors on-site</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Affiliated Mentors On-Site</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -82,7 +82,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Recruiters on-site</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Recruiters On-Site</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -91,7 +91,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Hacker resumes and GitHubs</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Hacker Resumes and GitHubs</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold">post-event</p></div>
@@ -100,7 +100,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Logo on website</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Logo on Website</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -109,7 +109,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Sponsor branded prize</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Sponsor Branded Prize</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -127,7 +127,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Logo on T-shirt</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Logo on T-Shirt</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -136,7 +136,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Distribute materials in swag bags</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Distribute Materials in Swag Bags</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -145,7 +145,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Host a mini-event</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Host a Mini-Event</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"><span class="fa fa-check"></span></p></div>
@@ -154,7 +154,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Mention in all pre-event emails</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Mention in All Pre-Event Emails</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"></p><span class="fa fa-check"></span></div>
@@ -163,7 +163,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Distribute material at registration</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Distribute Material at Registration</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"></p></div>
@@ -172,7 +172,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">Sponsor lounge</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">Sponsor Lounge</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"></p></div>
@@ -181,7 +181,7 @@ class SponsorshipPackages extends Component {
                     </div>
 
                     <div class="row perk-row">
-                        <div class="col-lg-2 hidden-md-down"><p class="c">HackRU Co-presented by you</p></div>
+                        <div class="col-lg-2 hidden-md-down"><p class="c">HackRU Co-presented by You</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold"></p></div>
@@ -217,24 +217,24 @@ class SponsorshipPackages extends Component {
 
             <div class="row row-content-box mt-12">
                 <div class="col-12 text-white col-lg-2">
-                    <div class="row">
-                        <div class="col-2 col-lg-12">
+                    <div class="row" style={{display:"flex"}}>
+                        <div class="col-2 col-lg-12" style={{flex: 20.0}}>
                             <h6 class="bronze hidden-sm-down mb">BRONZE</h6>
                             <h6 class="hidden-sm-down mb">$1,500</h6>
                         </div>
-                        <div class="col-2 col-lg-12">
+                        <div class="col-2 col-lg-12" style={{flex: 20.0}}>
                             <h6 class="silver hidden-sm-down mb mb3">SILVER</h6>
                             <h6 class="hidden-sm-down mb">$4,000</h6>
                         </div>
-                        <div class="col-2 col-lg-12">
+                        <div class="col-2 col-lg-12" style={{flex: 20.0}}>
                             <h6 class="gold hidden-sm-down mb mb3">GOLD</h6>
                             <h6 class="hidden-sm-down mb">$7,000</h6>
                         </div>
-                        <div class="col-2 col-lg-12">
+                        <div class="col-2 col-lg-12" style={{flex: 20.0}}>
                             <h6 class="plat hidden-sm-down mb">PLATINUM</h6>
                             <h6 class="hidden-sm-down mb mb3">$15,000</h6>
                         </div>
-						<div class="col-2 col-lg-12">
+						<div class="col-2 col-lg-12" style={{flex: 20.0}}>
                             <h6 class="titlepack hidden-sm-down mb mb2 mb3">TITLE</h6>
                             <h6 class="hidden-sm-down mb mb2">$25,000 minimum</h6>
                         </div>
@@ -375,7 +375,7 @@ class SponsorshipPackages extends Component {
                         <div class="col-lg-2 hidden-md-down"><p class="c">Mention in All Pre-Event Emails</p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select bronze mb2"></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select silver mb2"></p></div>
-                        <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold mb2"></p><span class="fa fa-check"></span></div>
+                        <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select gold mb2"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select plat mb2"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select titlepack mb2"><span class="fa fa-check"></span></p></div>
                         <div class="col-2 col-lg-2 col-xs-2 perk-select-col"><p class="perk-select mb2"></p></div>
