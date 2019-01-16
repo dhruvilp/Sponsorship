@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import QrReader from "react-qr-reader";
  
-class QRComponent extends Component {
+class QRScanner extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -35,4 +35,4 @@ class QRComponent extends Component {
   }
 }
 
-export default QRComponent;
+export default QRScanner;

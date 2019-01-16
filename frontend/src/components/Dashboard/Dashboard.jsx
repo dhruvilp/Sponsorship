@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Section from './Section';
 import Loading from './Loading';
 import ProfileMessage from './ProfileMessage';
-import QRComponent from './QR/QR'
+import QRScanner from './QR/QR'
 
 
 
@@ -93,7 +93,7 @@ class Dashboard extends Component {
                         </div>
                         <ProfileMessage message={this.state.profileMSG} />
                         <Section title="QR Resume Lookup" subtitle="" isOpen={true} >
-                            <QRComponent></QRComponent>
+                            <QRScanner ></QRScanner>
                         </Section>
                     </Container>
                 </div>
