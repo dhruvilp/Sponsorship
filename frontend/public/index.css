@@ -221,7 +221,7 @@ input, textarea, .custom-file-label {
 }
 
 .hpanel .panel-body{
-    border:0.5px solid var(--secondary-color);
+    border:1px solid var(--secondary-color);
     border-radius:5px;
     padding:2px;
     position:relative;
@@ -231,8 +231,9 @@ input, textarea, .custom-file-label {
     border-top: none !important; 
 }
 
-.pd {padding-top: 10px;}
+.pd {padding-top: 15px;}
 .fa-check-square-o {padding-right: 5px !important;}
+.zoom {font-size: 5vw;}
 
 .testimo-panel img {
     width: 100px;
