@@ -55,29 +55,29 @@ class Recap extends Component {
         </div>
 
         <div class="row">
-            <div class="col-lg-3 pd">
-                <div class="hpanel testimo-panel text-center">
+            <div class="col-lg-3">
+                <div class="hpanel testimo-panel text-center pd">
                     <div>
                         <h4 class="zoom">83%</h4><div><h3>Hackers From Rutgers University</h3></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 pd">
-                <div class="hpanel testimo-panel text-center">
+            <div class="col-lg-3">
+                <div class="hpanel testimo-panel text-center pd">
                     <div>
                         <h4 class="zoom">88%</h4><div><h3>Undergraduates Hackers</h3></div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 pd">
-                <div class="hpanel testimo-panel text-center">
+            <div class="col-lg-3">
+                <div class="hpanel testimo-panel text-center pd">
                     <div>
                         <h4 class="zoom">575 <i class="fa fa-caret-up gold fa-sm"></i></h4><div><h3>Totol Hackers</h3></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 pd">
-                <div class="hpanel">
+                <div class="hpanel pd">
                     <div><HorizontalBar data={data4} options={{maintainAspectRatio: false, scales: { xAxes: [{ ticks: {beginAtZero:true, fontColor:'white'}, gridLines: {offsetGridLines: true} }], yAxes:[{ticks:{fontColor:'white'}}] }}} width={250} height={200} legend={legendOpts4}/></div>
                 </div>
             </div>
@@ -87,17 +87,17 @@ class Recap extends Component {
 
         <div class="row">
             <div class="col-lg-4">
-                <div class="hpanel">
+                <div class="hpanel pd">
                     <div><Doughnut data={data1} options={{maintainAspectRatio: false}} width={250} height={250} legend={legendOpts1}/></div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="hpanel">
+                <div class="hpanel pd">
                     <div><Doughnut data={data2} options={{maintainAspectRatio: false}} width={300} height={300} legend={legendOpts2}/></div>
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="hpanel">
+                <div class="hpanel pd">
                     <div><Doughnut data={data3} options={{maintainAspectRatio: false}} width={250} height={250} legend={legendOpts3}/></div>
                 </div>
             </div>
