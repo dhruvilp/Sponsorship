@@ -27,8 +27,12 @@
 }
 
 /* Global look and feel */
+html,body
+{
+    overflow-x: hidden; 
+}
 body::-webkit-scrollbar { 
-    display: none; 
+    display: none;
 }
 ::selection {
     background-color: var(--input-placeholder);
@@ -54,6 +58,9 @@ a:visited:hover {
 .btn:hover{
     background-color: rgba(255, 255, 255, 1) !important;
     color: rgba(90, 122, 150, 1) !important;
+}
+.bg-gradient-left a, .bg-gradient-right a {
+    color: var(--secondary-color-alt);
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: "Circular Std Bold", sans-serif;

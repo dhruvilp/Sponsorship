@@ -12,7 +12,7 @@ class Testimonials extends Component {
                 <div class="col-lg-3">
                     <div class="hpanel testimo-panel text-center">
                         <div> 
-                            <img alt="logo" class="img-circle m-b"src="./assets/testimonials/t1.png"></img>
+                            <img alt="logo" class="img-fluid img-circle m-b"src="./assets/testimonials/t1.png"></img>
                             <h3>Suzanne Link</h3>
                             <div class="font-bold m-b-xs">Human Resource Management, Senior</div><hr />
                             <p>
@@ -24,7 +24,7 @@ class Testimonials extends Component {
                 <div class="col-lg-3">
                     <div class="hpanel testimo-panel text-center">
                         <div>
-                            <img alt="logo" class="img-circle m-b" src="./assets/testimonials/t2.png"></img>
+                            <img alt="logo" class="img-fluid img-circle m-b" src="./assets/testimonials/t2.png"></img>
                             <h3>Rishab Chawla</h3>
                             <div class="font-bold m-b-xs">Computer Science, Junior</div><hr />
                             <p>
@@ -36,7 +36,7 @@ class Testimonials extends Component {
                 <div class="col-lg-3">
                     <div class="hpanel testimo-panel text-center">
                         <div >
-                            <img alt="logo" class="img-circle m-b" src="./assets/testimonials/t3.png"></img>
+                            <img alt="logo" class="img-fluid img-circle m-b" src="./assets/testimonials/t3.png"></img>
                             <h3>Elaine Huang</h3>
                             <div class="font-bold m-b-xs">Neuroscience and Philosophy, Senior</div><hr />
                             <p>
@@ -48,7 +48,7 @@ class Testimonials extends Component {
                 <div class="col-lg-3">
                     <div class="hpanel testimo-panel text-center">
                         <div>
-                            <img alt="logo" class="img-circle m-b" src="./assets/testimonials/t4.png"></img>
+                            <img alt="logo" class="img-fluid img-circle m-b" src="./assets/testimonials/t4.png"></img>
                             <h3>Ben Yang</h3>
                             <div class="font-bold m-b-xs">Rutgers School of Arts and Science</div><hr />
                             <p>
