@@ -27,6 +27,13 @@ const sponsorshipLinks = {
         "fullHeight": false,
         "component": (props) => <AboutSponsorship {...props} />
     },
+    "Recap": {
+        "url": "#recap",
+        "enabled": true,
+        "hideLink": false,
+        "fullHeight": false,
+        "component": (props) => <Recap {...props} />
+    },
     "Packages": {
         "url": "#packages",
         "enabled": true,
@@ -40,13 +47,6 @@ const sponsorshipLinks = {
         "hideLink": false,
         "fullHeight": false,
         "component": (props) => <Testimonials {...props} />
-    },
-    "Recap": {
-        "url": "#recap",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <Recap {...props} />
     },
     "Footer": {
         "url": "#footer",

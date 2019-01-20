@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Icon } from "react-fa";
+import { Button } from "reactstrap";
 
 class Testimonials extends Component {
     render() {
@@ -57,7 +59,9 @@ class Testimonials extends Component {
                         </div>
                     </div>
                 </div>
-
+                <div style={{ position: "absolute", bottom: 0, textAlign:"center", width: "100%", paddingBottom:0 }}>
+                    <Button href="#main" outline style={{ border: "single", fontSize: 25}} ><Icon name="chevron-up" /></Button>
+                </div>
             </div>
             </div>
         )

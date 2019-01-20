@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {Doughnut, HorizontalBar} from 'react-chartjs-2';
-import { Icon } from "react-fa";
-import { Button } from "reactstrap";
+
 
 
 class Recap extends Component {
@@ -57,33 +56,26 @@ class Recap extends Component {
         <div class="row">
             <div class="col-lg-3">
                 <div class="hpanel testimo-panel text-center pd">
-                    <div>
                         <h4 class="zoom">83%</h4><div><h3>Hackers From Rutgers University</h3></div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="hpanel testimo-panel text-center pd">
-                    <div>
-                        <h4 class="zoom">88%</h4><div><h3>Undergraduates Hackers</h3></div>
-                    </div>
+                    <h4 class="zoom">88%</h4><div><h3>Undergraduates Hackers</h3></div>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="hpanel testimo-panel text-center pd">
-                    <div>
-                        <h4 class="zoom">575 <i class="fa fa-caret-up gold fa-sm"></i></h4><div><h3>Totol Hackers</h3></div>
-                    </div>
+                    <h4 class="zoom">575 <i class="fa fa-caret-up gold fa-sm"></i></h4><div><h3>Total Hackers</h3></div>
                 </div>
             </div>
             <div class="col-lg-3 pd">
                 <div class="hpanel pd">
+                    <h4>Graduation Year</h4>
                     <div><HorizontalBar data={data4} options={{maintainAspectRatio: false, scales: { xAxes: [{ ticks: {beginAtZero:true, fontColor:'white'}, gridLines: {offsetGridLines: true} }], yAxes:[{ticks:{fontColor:'white'}}] }}} width={250} height={200} legend={legendOpts4}/></div>
                 </div>
             </div>
         </div>
-        
-        <br></br><div class="pd"></div>
 
         <div class="row">
             <div class="col-lg-4">
@@ -104,10 +96,6 @@ class Recap extends Component {
         </div>
 
         <br></br><div class="pd"></div>
-
-        <div style={{ position: "absolute", bottom: 0, textAlign:"center", width: "100%", paddingBottom:0 }}>
-            <Button href="#main" outline style={{ border: "single", fontSize: 25}} ><Icon name="chevron-up" /></Button>
-        </div>
 
         </div>
         )

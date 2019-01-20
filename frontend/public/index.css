@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url("https://fonts.googleapis.com/css?family=Raleway+Dots");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 
 /* Variables */
 :root {
@@ -10,6 +10,14 @@
     --secondary-color-alt: #354a5f;
     --accent-color: #FF80CF;
     --accent-color-alt: #F8A5FF;
+    --disabled-color: #BDBDBD;
+    --hover-color: rgba(255, 255, 255, 0.5);
+    --hover-background-color: #26E8BDA0;
+    --active-color: rgba(255, 255, 255, 0.5);
+    --active-background-color: #5A7A96A0;
+    /* Fonts */
+    --header-font: 'Raleway Dots', serif;
+    --text-font: 'Open Sans', sans-serif;
     /* Form Inputs */
     --input-background: rgba(255, 255, 255, 0.2);
     --input-placeholder: rgba(255, 255, 255, 0.3);
@@ -34,6 +42,9 @@ html,body
 body::-webkit-scrollbar { 
     display: none;
 }
+body {
+    font-family: var(--text-font) !important;
+}
 ::selection {
     background-color: var(--input-placeholder);
 }
@@ -45,25 +56,31 @@ a:link {
     transition: color 0.5s ease;
 }
 a:link:hover {
-    color: rgb(255, 255, 255);
+    color: var(--hover-color);
     text-decoration: none;
 }
 a:visited {
     color: var(--primary-color);
 }
 a:visited:hover {
-    color: rgb(255, 255, 255);
+    color: var(--hover-color);
     text-decoration: none;
 }
-.btn:hover{
-    background-color: rgba(255, 255, 255, 1) !important;
-    color: rgba(90, 122, 150, 1) !important;
+.btn:hover {
+    transition: background-color 0.5s;
+    background-color: var(--hover-background-color) !important;
+    color: var(--hover-color) !important;
+}
+.btn:active {
+    transition: background-color 0.5s;
+    background-color: var(--active-background-color) !important;
+    color: var(--active-color) !important;
 }
 .bg-gradient-left a, .bg-gradient-right a {
     color: var(--secondary-color-alt);
 }
 h1, h2, h3, h4, h5, h6, p {
-    font-family: "Circular Std Bold", sans-serif;
+    font-family: var(--text-font);
 }
 hr {
     background-color: rgba(255, 255, 255, 0.5);
@@ -74,7 +91,7 @@ h4{
 
 /* Theme Nav/Font */
 .theme-font {
-    font-family: 'Open Sans', cursive;
+    font-family: var(--header-font);
 }
 .theme-home-link {
     position: relative;
@@ -135,6 +152,9 @@ h4{
 .faq:hover hr {
     background-color: var(--primary-color);
 }
+.faq h5 {
+    font-weight: 600;
+}
 .footer {
     color: var(--primary-color);
     background-color:var(--primary-color);
@@ -167,7 +187,7 @@ h4{
     z-index: 10;
 }
 #navigation-link {
-    font-family: "Circular Std Bold", sans-serif;
+    font-family: var(--text-font);
     color: white;
     text-align: center;
     font-size: 1.25rem;
@@ -183,6 +203,7 @@ input, textarea, .custom-file-label {
     background: var(--input-background) !important;
     border: var(--input-border) !important;
     color: var(--input-color) !important;
+    z-index: 0 !important;
 }
 .forcestyle div[class^="css-"] {
     background: var(--select-input-background);
@@ -206,7 +227,24 @@ input, textarea, .custom-file-label {
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
     background-color: var(--primary-color) !important;
 }
+.custom-av-checkbox div {
+    background-color: transparent;
+}
+.custom-av-checkbox div div label p {
+    color: var(--input-color);
+}
+/* Form validator */
+.avfield-hide-inner {
+    visibility: hidden;
+}
+.invalid-feedback, .text-danger label {
+    color: var(--accent-color) !important;
+}
+.custom-av-checkbox .is-invalid div label p {
+    color: var(--accent-color) !important;
+}
 
+/* Sponsorship Landing Sepcifics */
 .bronze {
     color: #C96F0D !important; 
 }
