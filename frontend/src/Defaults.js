@@ -34,19 +34,19 @@ const sponsorshipLinks = {
         "fullHeight": false,
         "component": (props) => <Recap {...props} />
     },
-    "Packages": {
-        "url": "#packages",
-        "enabled": true,
-        "hideLink": false,
-        "fullHeight": false,
-        "component": (props) => <SponsorshipPackages {...props} />
-    },
     "Testimonials": {
         "url": "#testimonials",
         "enabled": true,
         "hideLink": false,
         "fullHeight": false,
         "component": (props) => <Testimonials {...props} />
+    },
+    "Packages": {
+        "url": "#packages",
+        "enabled": true,
+        "hideLink": false,
+        "fullHeight": false,
+        "component": (props) => <SponsorshipPackages {...props} />
     },
     "Footer": {
         "url": "#footer",
