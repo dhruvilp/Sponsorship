@@ -74,6 +74,7 @@ class Profile {
         this._email = cookie.load("email");
         this._valid_until = Date.parse(cookie.load("valid_until"));
         if (this._token && this._email && this._valid_until && this._valid_until > Date.now()) {
+            
             this.isLoggedIn = true;
         } else {
             this.isLoggedIn = false;

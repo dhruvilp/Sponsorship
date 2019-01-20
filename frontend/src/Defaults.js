@@ -27,12 +27,12 @@ const sponsorshipLinks = {
         "fullHeight": false,
         "component": (props) => <AboutSponsorship {...props} />
     },
-    "Packages": {
-        "url": "#packages",
+    "Recap": {
+        "url": "#recap",
         "enabled": true,
         "hideLink": false,
         "fullHeight": false,
-        "component": (props) => <SponsorshipPackages {...props} />
+        "component": (props) => <Recap {...props} />
     },
     "Testimonials": {
         "url": "#testimonials",
@@ -41,12 +41,12 @@ const sponsorshipLinks = {
         "fullHeight": false,
         "component": (props) => <Testimonials {...props} />
     },
-    "Recap": {
-        "url": "#recap",
+    "Packages": {
+        "url": "#packages",
         "enabled": true,
         "hideLink": false,
         "fullHeight": false,
-        "component": (props) => <Recap {...props} />
+        "component": (props) => <SponsorshipPackages {...props} />
     },
     "Footer": {
         "url": "#footer",
