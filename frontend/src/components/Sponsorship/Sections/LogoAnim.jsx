@@ -31,7 +31,7 @@ class LogoAnim extends Component {
 	}
 	render() {
 		return (
-			<Container style={{ minHeight: 210, maxWidth: 210, marginLeft: 0, marginRight: 20, borderRadius: theme["hero-border-radius"], color: theme.primary[0] + "FF" }} className="align-items-center">
+			<Container style={{ minHeight: 250, maxWidth: 250, borderRadius: theme["hero-border-radius"], color: theme.primary[0] + "FF"}}>
 				<Col xs={12} dangerouslySetInnerHTML={{ __html: this.state.file }} />
 			</Container>
 		);

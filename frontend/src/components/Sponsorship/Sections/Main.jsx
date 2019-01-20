@@ -19,22 +19,21 @@ class Main extends Component {
         let navContainer = (
             <div>
                 {navSponsorship}
-                <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", width: "100px" }} />
             </div>
         );
 
         if (!this.props.isMobile) {
             return (
-                <Container fluid id="landing-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
+                <Container fluid id="sponsorship-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
                     <Row style={{ minWidth: "100%", minHeight: "100vh" }} className="d-flex align-items-center">
                         <Col xs={2}></Col>
                         <Col xs={8} style={{ display: "block" }}>
-                        <Row className="align-items-center" style={{paddingLeft: 110}}>
-                            <LogoAnim src="./assets/icons/assetsSVG/whitegriffinasset.svg" />
-                            <img width="300" src="./assets/icons/hru-logo-small-green.png" alt="logo"></img>
-                            <LogoAnim src="./assets/icons/assetsSVG/whitegriffinassetleft.svg" />
-                        </Row>
-                            <h2 style={{ marginTop: 15 }} className="display-4 theme-font">Sponsor HackRU Spring 2019</h2>
+                        <div className="row" style={{display:"flex"}}>
+                            <div style={{flex: 33.33}}><LogoAnim className="disappear" src="./assets/icons/assetsSVG/whitegriffinasset.svg" /></div>
+                            <div style={{flex: 33.33}}><img width="250" src="./assets/icons/hru-logo-small-green.png" alt="logo"></img></div>
+                            <div style={{flex: 33.33}}><LogoAnim className="disappear" src="./assets/icons/assetsSVG/whitegriffinassetleft.svg" /></div>
+                        </div>
+                            <h2 style={{ marginTop: 20 }} className="display-4 theme-font">Sponsor HackRU Spring 2019</h2>
                             <h2 className="lead theme-font"><Icon style={{ marginRight: 5 }} name="map-marker" /> {defaults.locationText}</h2>
                             <h2 className="lead theme-font"><Icon style={{ marginRight: 5 }} name="calendar" /> {defaults.dateText}</h2>
                         </Col>
@@ -51,18 +50,18 @@ class Main extends Component {
             )
         } else {
             return (
-                <Container fluid id="landing-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
-                    <Row style={{ minWidth: "100%", minHeight: "100vh" }} className="d-flex align-items-center">
+                <Container fluid id="sponsorship-section" style={{ zIndex: 3, width: "100%", minHeight: "100vh", textAlign: "center", userSelect: "none" }}>
+                    <Row style={{ minWidth: "100%", minHeight: "100h" }} className="d-flex align-items-center">
                         <Col style={{ display: "block" }}>
-                            <Row className="align-items-center" style={{paddingLeft: 80}}>
-                                <LogoAnim src="./assets/icons/assetsSVG/whitegriffinasset.svg" />
-                                <img width="300" src="./assets/icons/hru-logo-small-green.png" alt="logo"></img>
-                                <LogoAnim src="./assets/icons/assetsSVG/whitegriffinassetleft.svg" />
-                            </Row>
-                            <h2 style={{ marginTop: -75 }} className="display-4 theme-font">Sponsor HackRU Spring 2019</h2>
-                            <h2 className="lead theme-font"><Icon style={{ marginRight: 5 }} name="map-marker" /> {defaults.locationText}</h2>
-                            <h2 className="lead theme-font"><Icon style={{ marginRight: 5 }} name="calendar" /> {defaults.dateText}</h2>
+                        <div className="row" style={{display:"flex"}}>
+                            <div style={{flex: 33.33}}><img width="300" src="./assets/icons/hru-logo-small-green.png" alt="logo"></img></div>
+                        </div>
+                            <h2 style={{ marginTop: -10 }} className="display-5 theme-font">Sponsor HackRU Spring 2019</h2>
+                            <h2 style={{ marginTop: 25 }} className="lead theme-font"><Icon style={{ marginRight: 5 }} name="map-marker" /> {defaults.locationText}</h2>
+                            <h2 style={{ marginTop: 5, marginBottom: 25 }} className="lead theme-font"><Icon style={{ marginRight: 5 }} name="calendar" /> {defaults.dateText}</h2>
+                            <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.25)", width: "100px" }} />
                             {navContainer}
+                            <hr style={{ backgroundColor: "rgba(255, 255, 255, 0.25)", width: "100px" }} />
                         </Col>
                     </Row>
                 </Container>
